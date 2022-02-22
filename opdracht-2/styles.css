@@ -3,3 +3,91 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+
+/* Opdracht 2.1 */
+
+.one {
+    position: relative;
+}
+
+.one p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 25%;
+    padding-left: 5%;
+}
+
+.one h3 {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    padding-left: 5%;
+}
+
+/* Opdracht 2.2 */
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+#edhub-1 {
+    margin-left: auto;
+
+}
+
+/* Opdracht 2.3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* Opdracht 2.4 */
+.inlogbox {
+    display: flex;
+    justify-content: center;
+}
+
+.inlogbox form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Opdracht 2.5*/
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.five article {
+    padding: 0;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
